@@ -1,0 +1,54 @@
+1) Análisis de Requerimientos
+
+1.1- Identificar Preguntas. 
+
+Primera pregunta:
+
+- Tiempo promedio en que una solicitud es entregada por servicios generales
+
+Segunda Pregunta:
+
+- Cantidad de obras realizadas por trabajador en cada área de las instalaciones de la UNET.
+
+Tercera Pregunta:
+
+-  Cantidad máxima de materiales utilizados en cada mes.
+-	Cantidad mínima de materiales utilizados en cada mes.
+
+Cuarta Pregunta:
+
+-	Porcentaje de ocupación del personal de servicios generales diariamente.
+-	Cantidad de proyectos que atiende el personal de servicios generales a diario.
+
+Quinta Pregunta: 
+
+-	Tiempo que transcurre entre 2 fallos por localidad el mismo tipo de falla.
+-	Tiempo que transcurre entre 2 fallos por localidad fallas de distinta índole.
+
+
+Sexta Pregunta: 
+
+-	Porcentaje de costo que presenta cada centro por solicitudes de servicios generales.
+
+Séptima Pregunta:
+
+-	Tipos de fallas asociadas
+
+Octava Pregunta:
+
+-	Descripción de los trabajos que sobrepasan la cantidad estimada de materiales y mano de obra. 
+
+Novena Pregunta:
+
+-	Cantidad de solicitudes atendidas, rechazadas y en espera mensualmente.
+
+Decima Pregunta:
+
+-	Descripción de fallas más comunes en los edificios.
+
+Onceava Pregunta:
+
+-	Centro de costo que es atendido más rápido.
+-	Centro de costo donde los tiempos de atención son más largos para responder sus solicitudes.
+
+
