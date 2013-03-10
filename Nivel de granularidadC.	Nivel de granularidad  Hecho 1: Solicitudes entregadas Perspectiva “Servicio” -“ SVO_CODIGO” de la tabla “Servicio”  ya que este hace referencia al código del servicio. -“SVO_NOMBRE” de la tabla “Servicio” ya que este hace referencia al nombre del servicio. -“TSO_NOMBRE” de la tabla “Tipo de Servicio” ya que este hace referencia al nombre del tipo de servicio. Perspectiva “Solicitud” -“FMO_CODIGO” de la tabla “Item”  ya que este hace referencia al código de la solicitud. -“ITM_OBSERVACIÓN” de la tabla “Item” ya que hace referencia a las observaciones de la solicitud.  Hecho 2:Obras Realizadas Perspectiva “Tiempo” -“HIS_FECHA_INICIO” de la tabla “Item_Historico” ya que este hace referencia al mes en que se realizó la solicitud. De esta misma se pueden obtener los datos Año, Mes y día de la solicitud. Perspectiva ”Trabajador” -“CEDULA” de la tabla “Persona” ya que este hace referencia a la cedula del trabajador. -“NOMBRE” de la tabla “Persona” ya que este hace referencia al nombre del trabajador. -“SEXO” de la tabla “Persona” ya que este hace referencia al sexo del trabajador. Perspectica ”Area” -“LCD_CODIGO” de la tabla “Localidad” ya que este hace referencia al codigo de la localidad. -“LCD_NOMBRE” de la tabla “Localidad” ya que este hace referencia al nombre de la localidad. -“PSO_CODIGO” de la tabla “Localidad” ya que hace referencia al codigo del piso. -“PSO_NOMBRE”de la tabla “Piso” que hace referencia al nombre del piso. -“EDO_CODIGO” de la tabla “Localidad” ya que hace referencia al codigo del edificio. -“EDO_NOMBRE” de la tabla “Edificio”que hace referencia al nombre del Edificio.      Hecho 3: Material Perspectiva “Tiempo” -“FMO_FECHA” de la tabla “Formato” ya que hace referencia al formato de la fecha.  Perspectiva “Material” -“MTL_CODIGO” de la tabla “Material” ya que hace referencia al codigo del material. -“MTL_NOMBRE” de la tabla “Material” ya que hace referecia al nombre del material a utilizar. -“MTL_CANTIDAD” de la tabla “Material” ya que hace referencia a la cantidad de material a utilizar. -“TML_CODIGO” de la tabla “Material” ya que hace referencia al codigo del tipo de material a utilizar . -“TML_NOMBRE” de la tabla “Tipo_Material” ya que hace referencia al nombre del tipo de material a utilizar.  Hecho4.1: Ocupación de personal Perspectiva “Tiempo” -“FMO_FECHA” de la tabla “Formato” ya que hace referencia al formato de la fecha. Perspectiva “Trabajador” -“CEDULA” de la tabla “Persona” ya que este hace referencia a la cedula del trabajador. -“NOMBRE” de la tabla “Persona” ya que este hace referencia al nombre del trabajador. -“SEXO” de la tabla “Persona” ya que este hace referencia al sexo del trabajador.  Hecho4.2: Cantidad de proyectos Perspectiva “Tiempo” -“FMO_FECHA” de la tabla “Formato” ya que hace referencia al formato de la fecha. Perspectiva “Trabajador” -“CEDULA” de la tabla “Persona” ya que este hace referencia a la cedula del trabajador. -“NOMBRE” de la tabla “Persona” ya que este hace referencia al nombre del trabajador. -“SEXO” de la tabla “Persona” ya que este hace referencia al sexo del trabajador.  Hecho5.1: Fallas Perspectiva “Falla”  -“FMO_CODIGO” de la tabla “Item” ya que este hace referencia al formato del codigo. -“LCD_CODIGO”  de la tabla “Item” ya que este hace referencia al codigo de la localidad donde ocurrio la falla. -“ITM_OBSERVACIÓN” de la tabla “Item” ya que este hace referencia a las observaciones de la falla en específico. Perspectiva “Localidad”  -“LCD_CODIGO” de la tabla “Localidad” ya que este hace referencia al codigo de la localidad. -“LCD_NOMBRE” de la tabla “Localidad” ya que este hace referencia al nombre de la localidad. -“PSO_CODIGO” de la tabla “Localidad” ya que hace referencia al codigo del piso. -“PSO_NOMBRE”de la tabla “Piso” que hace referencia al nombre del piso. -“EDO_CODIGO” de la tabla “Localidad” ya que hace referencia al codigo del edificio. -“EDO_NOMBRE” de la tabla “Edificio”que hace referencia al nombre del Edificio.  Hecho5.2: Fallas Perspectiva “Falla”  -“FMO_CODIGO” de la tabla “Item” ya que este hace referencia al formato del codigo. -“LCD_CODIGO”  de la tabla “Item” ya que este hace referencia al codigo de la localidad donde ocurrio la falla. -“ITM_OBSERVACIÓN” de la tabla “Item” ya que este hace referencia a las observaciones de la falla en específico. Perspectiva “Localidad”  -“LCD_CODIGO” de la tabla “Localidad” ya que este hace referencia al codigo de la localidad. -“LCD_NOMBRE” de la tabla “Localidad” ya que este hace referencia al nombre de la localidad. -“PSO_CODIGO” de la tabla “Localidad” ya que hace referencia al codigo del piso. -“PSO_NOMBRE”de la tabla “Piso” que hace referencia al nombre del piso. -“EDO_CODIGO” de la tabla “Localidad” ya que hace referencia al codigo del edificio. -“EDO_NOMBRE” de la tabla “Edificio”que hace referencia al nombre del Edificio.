@@ -1,0 +1,81 @@
+C.  Nivel de granularidad
+
+Hecho 1: Solicitudes entregadas
+Perspectiva “Servicio”
+-“ SVO_CODIGO” de la tabla “Servicio”  ya que este hace referencia al código del servicio.
+-“SVO_NOMBRE” de la tabla “Servicio” ya que este hace referencia al nombre del servicio.
+-“TSO_NOMBRE” de la tabla “Tipo de Servicio” ya que este hace referencia al nombre del tipo de servicio.
+Perspectiva “Solicitud”
+-“FMO_CODIGO” de la tabla “Item”  ya que este hace referencia al código de la solicitud.
+-“ITM_OBSERVACIÓN” de la tabla “Item” ya que hace referencia a las observaciones de la solicitud.
+
+Hecho 2:Obras Realizadas
+Perspectiva “Tiempo”
+-“HIS_FECHA_INICIO” de la tabla “Item_Historico” ya que este hace referencia al mes en que se realizó la solicitud. De esta misma se pueden obtener los datos Año, Mes y día de la solicitud.
+Perspectiva ”Trabajador”
+-“CEDULA” de la tabla “Persona” ya que este hace referencia a la cedula del trabajador.
+-“NOMBRE” de la tabla “Persona” ya que este hace referencia al nombre del trabajador.
+-“SEXO” de la tabla “Persona” ya que este hace referencia al sexo del trabajador.
+Perspectica ”Area”
+-“LCD_CODIGO” de la tabla “Localidad” ya que este hace referencia al codigo de la localidad.
+-“LCD_NOMBRE” de la tabla “Localidad” ya que este hace referencia al nombre de la localidad.
+-“PSO_CODIGO” de la tabla “Localidad” ya que hace referencia al codigo del piso.
+-“PSO_NOMBRE”de la tabla “Piso” que hace referencia al nombre del piso.
+-“EDO_CODIGO” de la tabla “Localidad” ya que hace referencia al codigo del edificio.
+-“EDO_NOMBRE” de la tabla “Edificio”que hace referencia al nombre del Edificio.
+
+
+
+
+
+Hecho 3: Material
+Perspectiva “Tiempo”
+-“FMO_FECHA” de la tabla “Formato” ya que hace referencia al formato de la fecha. 
+Perspectiva “Material”
+-“MTL_CODIGO” de la tabla “Material” ya que hace referencia al codigo del material.
+-“MTL_NOMBRE” de la tabla “Material” ya que hace referecia al nombre del material a utilizar.
+-“MTL_CANTIDAD” de la tabla “Material” ya que hace referencia a la cantidad de material a utilizar.
+-“TML_CODIGO” de la tabla “Material” ya que hace referencia al codigo del tipo de material a utilizar .
+-“TML_NOMBRE” de la tabla “Tipo_Material” ya que hace referencia al nombre del tipo de material a utilizar.
+
+Hecho4.1: Ocupación de personal
+Perspectiva “Tiempo”
+-“FMO_FECHA” de la tabla “Formato” ya que hace referencia al formato de la fecha.
+Perspectiva “Trabajador”
+-“CEDULA” de la tabla “Persona” ya que este hace referencia a la cedula del trabajador.
+-“NOMBRE” de la tabla “Persona” ya que este hace referencia al nombre del trabajador.
+-“SEXO” de la tabla “Persona” ya que este hace referencia al sexo del trabajador.
+
+Hecho4.2: Cantidad de proyectos
+Perspectiva “Tiempo”
+-“FMO_FECHA” de la tabla “Formato” ya que hace referencia al formato de la fecha.
+Perspectiva “Trabajador”
+-“CEDULA” de la tabla “Persona” ya que este hace referencia a la cedula del trabajador.
+-“NOMBRE” de la tabla “Persona” ya que este hace referencia al nombre del trabajador.
+-“SEXO” de la tabla “Persona” ya que este hace referencia al sexo del trabajador.
+
+Hecho5.1: Fallas
+Perspectiva “Falla” 
+-“FMO_CODIGO” de la tabla “Item” ya que este hace referencia al formato del codigo.
+-“LCD_CODIGO”  de la tabla “Item” ya que este hace referencia al codigo de la localidad donde ocurrio la falla.
+-“ITM_OBSERVACIÓN” de la tabla “Item” ya que este hace referencia a las observaciones de la falla en específico.
+Perspectiva “Localidad”
+ -“LCD_CODIGO” de la tabla “Localidad” ya que este hace referencia al codigo de la localidad.
+-“LCD_NOMBRE” de la tabla “Localidad” ya que este hace referencia al nombre de la localidad.
+-“PSO_CODIGO” de la tabla “Localidad” ya que hace referencia al codigo del piso.
+-“PSO_NOMBRE”de la tabla “Piso” que hace referencia al nombre del piso.
+-“EDO_CODIGO” de la tabla “Localidad” ya que hace referencia al codigo del edificio.
+-“EDO_NOMBRE” de la tabla “Edificio”que hace referencia al nombre del Edificio.
+
+Hecho5.2: Fallas
+Perspectiva “Falla” 
+-“FMO_CODIGO” de la tabla “Item” ya que este hace referencia al formato del codigo.
+-“LCD_CODIGO”  de la tabla “Item” ya que este hace referencia al codigo de la localidad donde ocurrio la falla.
+-“ITM_OBSERVACIÓN” de la tabla “Item” ya que este hace referencia a las observaciones de la falla en específico.
+Perspectiva “Localidad”
+ -“LCD_CODIGO” de la tabla “Localidad” ya que este hace referencia al codigo de la localidad.
+-“LCD_NOMBRE” de la tabla “Localidad” ya que este hace referencia al nombre de la localidad.
+-“PSO_CODIGO” de la tabla “Localidad” ya que hace referencia al codigo del piso.
+-“PSO_NOMBRE”de la tabla “Piso” que hace referencia al nombre del piso.
+-“EDO_CODIGO” de la tabla “Localidad” ya que hace referencia al codigo del edificio.
+-“EDO_NOMBRE” de la tabla “Edificio”que hace referencia al nombre del Edificio.
